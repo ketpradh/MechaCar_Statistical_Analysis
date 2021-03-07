@@ -27,9 +27,22 @@
 - ![](https://github.com/ketpradh/MechaCar_Statistical_Analysis/blob/main/Resources/T-Tests%20on%20Suspension%20Coils%20Lot%203.PNG)
 - Assuming our significance level was the common 0.05 percent, the p-value for Lot3(**0.1549**) is above our significance level. **Therefore, we do not have sufficient evidence to reject the null hypothesis, and state that the the PSI for Lot3 is statistically similar from the population mean of 1,500 pounds per square inch.**
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
+For statistical comparison of MechaCar performance to other manufacturers, certain metrics would be of high importance such as -
+- Cost of cars
+- Safety features
+- fuel efficiency
+- Green energy usage(electric/hybrid cars)
+- Maintenance cost
+- Any luxury features(example - sun roof, heated seats, etc.)
+- We would perform tests mainly on the feature-
+  - Safety(Safety rating)
+  
+What is the null hypothesis or alternative hypothesis? - ?
+
 What statistical test would you use to test the hypothesis? And why?
+- Perform a Two-sample t-test of sample from Mechcars and the sample from other manufacturer(s). As the safety data is numerical and the sample size is large, the Two-sample t-test fits the bill.
 What data is needed to run the statistical test?
+Data needed to run this statistical test includes safety ratings for samples from MechaCar and different manufacturers. This data would be Numerical where ranking would be given as follows between 1 to 10, 1 being the lowest and 10 being the highest safety rating.
+1-5 - Medium Safety requirements
+6-8 - Good Safety requirements
+9-10 - Excellent Safety requirements
