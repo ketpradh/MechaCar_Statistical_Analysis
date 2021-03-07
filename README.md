@@ -28,21 +28,26 @@
 - Assuming our significance level was the common 0.05 percent, the p-value for Lot3(**0.1549**) is above our significance level. **Therefore, we do not have sufficient evidence to reject the null hypothesis, and state that the the PSI for Lot3 is statistically similar from the population mean of 1,500 pounds per square inch.**
 ## Study Design: MechaCar vs Competition
 For statistical comparison of MechaCar performance to other manufacturers, certain metrics would be of high importance such as -
-- Cost of cars
 - Safety features
-- fuel efficiency
+- Cost
 - Green energy usage(electric/hybrid cars)
+- Fuel efficiency
 - Maintenance cost
 - Any luxury features(example - sun roof, heated seats, etc.)
+
 - We would perform tests mainly on the feature-
   - Safety(Safety rating)
+  - We will study how MechaCar cars fare in safety as compared to other manufacturers. Safety being the number one concern for most consumers, this metric would be an important point to car manufacturers such as MechaCar.Do they have the highest safety ratings compared to other manufacturers?
   
 What is the null hypothesis or alternative hypothesis? - ?
+- The Null hypothesis is that there is no difference between the Safety ratings between MechaCar and its competitors. The p-value we will consider is 0.05.
+- The alternative hypothesis is there might be a difference between the safety ratings between MechaCar and its competitors.
 
 What statistical test would you use to test the hypothesis? And why?
+We are using a pair t-test for our statistical analysis. 
 - Perform a Two-sample t-test of sample from Mechcars and the sample from other manufacturer(s). As the safety data is numerical and the sample size is large, the Two-sample t-test fits the bill.
 What data is needed to run the statistical test?
-Data needed to run this statistical test includes safety ratings for samples from MechaCar and different manufacturers. This data would be Numerical where ranking would be given as follows between 1 to 10, 1 being the lowest and 10 being the highest safety rating.
+Data needed to run this statistical test includes safety ratings for samples from MechaCar and different manufacturers. This data would be Numerical where ranking would be given as follows between 1 to 10, 1 being the lowest and 10 being the highest safety rating. Assumption is that data is normalized.
 1-5 - Medium Safety requirements
 6-8 - Good Safety requirements
 9-10 - Excellent Safety requirements
