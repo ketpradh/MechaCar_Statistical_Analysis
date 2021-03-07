@@ -16,16 +16,16 @@
 ## T-Tests on Suspension Coils
 - T-test for Manufacturing Lot
 - ![](https://github.com/ketpradh/MechaCar_Statistical_Analysis/blob/main/Resources/T-Tests%20on%20Suspension%20Coils.PNG)
-- Assuming our significance level was the common 0.05 percent, the p-value for overall Monaufacturing sample(**1**) is above our significance level. **Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.**
+- Assuming our significance level was the common 0.05 percent, the p-value for overall Manufacturing data sample(**1**) is above our significance level. **Therefore, we do not have sufficient evidence to reject the null hypothesis, and state that the PSI for across all manufacturing lots is statistically similar from the population mean of 1,500 pounds per square inch.**
 - T-test for Lot1
 - ![](https://github.com/ketpradh/MechaCar_Statistical_Analysis/blob/main/Resources/T-Tests%20on%20Suspension%20Coils%20Lot%201.PNG)
-- Assuming our significance level was the common 0.05 percent, the p-value for Lot1(**9.35 x 10^-12**) is below our significance level. **Therefore, we have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.**
+- Assuming our significance level was the common 0.05 percent, the p-value for Lot1(**9.35 x 10^-12**) is below our significance level. **Therefore, we have sufficient evidence to reject the null hypothesis and state that the PSI for Lot1 is statistically different from the population mean of 1,500 pounds per square inch.**
 - T-test for Lot2
 - ![](https://github.com/ketpradh/MechaCar_Statistical_Analysis/blob/main/Resources/T-Tests%20on%20Suspension%20Coils%20Lot%202.PNG)
-- Assuming our significance level was the common 0.05 percent, the p-value for Lot2(**0.0005082**) is below our significance level. **Therefore, we have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.**
+- Assuming our significance level was the common 0.05 percent, the p-value for Lot2(**0.0005082**) is below our significance level. **Therefore, we have sufficient evidence to reject the null hypothesis and state that the the PSI for Lot2 is statistically different from the population mean of 1,500 pounds per square inch.**
 - T-test for Lot3
 - ![](https://github.com/ketpradh/MechaCar_Statistical_Analysis/blob/main/Resources/T-Tests%20on%20Suspension%20Coils%20Lot%203.PNG)
-- Assuming our significance level was the common 0.05 percent, the p-value for Lot3(**0.1549**) is above our significance level. **Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.**
+- Assuming our significance level was the common 0.05 percent, the p-value for Lot3(**0.1549**) is above our significance level. **Therefore, we do not have sufficient evidence to reject the null hypothesis, and state that the the PSI for Lot3 is statistically similar from the population mean of 1,500 pounds per square inch.**
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 In your description, address the following questions:
