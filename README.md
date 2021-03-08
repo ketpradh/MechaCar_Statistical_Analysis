@@ -43,7 +43,7 @@ For statistical comparison of MechaCar performance to other manufacturers, certa
 - The Null hypothesis H0- There is no difference between the Safety ratings between MechaCar and its competitors. The p-value we will consider is 0.05.
 - The alternative hypothesis Ha - There is be a difference between the safety ratings between MechaCar and its competitors.
 
- ### statistical test used to test the hypothesis
+ ### Statistical test used to test the hypothesis
 We are using a pair t-test for our statistical analysis. 
 - Perform a Two-sample t-test with sample from Mechcars and the sample(s) from other competitor(s). As the safety data is numerical and the sample size is large, the Two-sample t-test would be a good statistcial test.
 
