@@ -48,7 +48,8 @@ We are using a pair t-test for our statistical analysis.
 - Perform a Two-sample t-test with sample from Mechcars and the sample(s) from other competitor(s). As the safety data is numerical and the sample size is large, the Two-sample t-test would be a good statistcial test.
 
 ### Data needed to run the statistical test
-Data needed to run the pair t-test would includes safety ratings for samples from MechaCar and different competitors. This data would be **Numerical** where ranking would be given between 1 to 10, 1 being the lowest and 10 being the highest safety rating. Assumption is that data is normalized.
-Sample data -
-![image](https://user-images.githubusercontent.com/74880366/110270784-982e7180-7f94-11eb-83e0-30dfd80c6976.png)
+- Data needed to run the pair t-test would includes safety ratings for samples from MechaCar and different competitors. 
+- This data would be **Numerical** where ranking would be given between 1 to 10, 1 being the lowest and 10 being the highest safety rating. Assumption is that data is normalized.
+- Sample data -
+- ![image](https://user-images.githubusercontent.com/74880366/110270784-982e7180-7f94-11eb-83e0-30dfd80c6976.png)
 
