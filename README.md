@@ -5,7 +5,7 @@
 - Summary of Linear Regression:
 - ![](https://github.com/ketpradh/MechaCar_Statistical_Analysis/blob/main/Resources/Linear%20Regression%20to%20Predict%20MPG%20Fig%202.PNG)
 - From the Pr(>|t|) values above, we can say that the Vehicle length and ground clearance(as well as Intercept) variables provide a non-random amount of variance to the mpg values in the dataset.
-- The slope of the linear model is not zero as the p-value is 5.35 x 10-11 which is much smaller than our assumed significance level of 0.05%. There is sufficient evidence to reject our null hypothesis.
+- The slope of the linear model is not zero as the p-value is 5.35 x 10^-11 which is much smaller than our assumed significance level of 0.05%. There is sufficient evidence to reject our null hypothesis.
 - Since the R-squared value is 0.71, which means that 70% of all mpg values will be correct using this linear model, this linear model can predict mpg of MechaCar prototypes effectively.
 ## Summary Statistics on Suspension Coils
 - Total Summary:
@@ -40,12 +40,17 @@ For statistical comparison of MechaCar performance to other manufacturers, certa
   - We will study how MechaCar cars fare in safety as compared to other manufacturers. Safety being the number one concern for most consumers, this metric would be an important point to car manufacturers such as MechaCar.Do they have the highest safety ratings compared to other manufacturers?
   
 ### Null hypothesis or alternative hypothesis
-- The Null hypothesis is that there is no difference between the Safety ratings between MechaCar and its competitors. The p-value we will consider is 0.05.
-- The alternative hypothesis is there might be a difference between the safety ratings between MechaCar and its competitors.
+- The Null hypothesis H0- There is no difference between the Safety ratings between MechaCar and its competitors. The p-value we will consider is 0.05.
+- The alternative hypothesis Ha - There is be a difference between the safety ratings between MechaCar and its competitors.
 
  ### statistical test used to test the hypothesis
 We are using a pair t-test for our statistical analysis. 
 - Perform a Two-sample t-test with sample from Mechcars and the sample(s) from other competitor(s). As the safety data is numerical and the sample size is large, the Two-sample t-test would be a good statistcial test.
-- 
+
 ### Data needed to run the statistical test
 Data needed to run the pair t-test would includes safety ratings for samples from MechaCar and different competitors. This data would be **Numerical** where ranking would be given between 1 to 10, 1 being the lowest and 10 being the highest safety rating. Assumption is that data is normalized.
+Sample data -
+Vechicle_type  Safety_Rating
+SUV             8
+Sedan           8
+AWD Van         9
